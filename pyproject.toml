@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plant_analysis_AVLL"
+version = "0.0.12"
+authors = [
+  { name="Uday Santhosh Raju Vysyaraju", email="uday@tamu.edu" }
+]
+description = "AI Powered Plant Phenotyping Analysis Software made at Advanced Vision and Learning Lab, Texas A&M University."
+readme = "README.md"
+requires-python = ">=3.8.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Documentation = "https://plant-analysis-avll.readthedocs.io/en/latest/"
+Github = "https://github.com/Advanced-Vision-and-Learning-Lab"
+LabPage = "https://avll.engr.tamu.edu/"
